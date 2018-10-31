@@ -8,3 +8,6 @@ To prove this to yourself, run the demo:
 
 Supporting information:
 - A detailed writeup on this issue: https://stackoverflow.com/a/45566871/2259303
+
+
+![demo.gif](./package-lock.gif)
