@@ -1,4 +1,4 @@
-`package-lock.json` isn't respected when theres `^` and `~` in  `package.json`.  You will actually installing different versions of your dependencies and yoour dependencies' dependencies on each build.
+Your `package-lock.json` isn't respected when there are `^` and `~` in  your `package.json`.  Instead, npm will install the most recent version allowed by the `^` and `~`. This means that your builds are not reproducable in practice since a dependency can upgrade and break your app without you knowing. 
 
 To prove this to yourself, run the demo:
 
